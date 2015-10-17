@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Volkswagen.js</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="../dist/volkswagen.js"></script> -->
+        <script src="./script.js"></script>
+    </head>
+    </head>
+
+    <body>
+        <button class="volkswagen" id="one" style="position: absolute; top: 400px; left: 200px;">Top</button>
+        <button class="volkswagen" id="two" style="position: absolute; top: 600px; left: 400px;">on click left</button>
+        <button class="volkswagen" id="three" style="position: absolute; top: 800px; left: 400px;">Right</button>
+        {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+        <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>
+        {% } %}
+    </body>
+
+</html>
