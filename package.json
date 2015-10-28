@@ -1,6 +1,6 @@
 {
   "name": "volkswagen.js",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "secret for now",
   "main": "dist/volkswagen.js",
   "scripts": {
