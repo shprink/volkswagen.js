@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
         <script src="./dist/volkswagen.js"></script>
         <style>
-            #smoke_train{
+            #smoke_train {
                 position: absolute;
                 top: 52%;
                 left: 45%;
@@ -44,7 +44,7 @@
                 <section id="main_content">
                     <div style="position:relative">
                         <span id="smoke_train"></span>
-                        <img src="./images/volkswagen-smoke.jpg" />
+                        <img src="./images/volkswagen-smoke.jpg" onload="start()" />
                     </div>
                 </section>
 
@@ -57,7 +57,9 @@
             </div>
         </div>
         <script>
-            var volkswagenOne = new Volkswagen(document.querySelector("#smoke_train"));
+            function start() {
+                var volkswagenOne = new Volkswagen(document.querySelector("#smoke_train"));
+            }
         </script>
     </body>
 
