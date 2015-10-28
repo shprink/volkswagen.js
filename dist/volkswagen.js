@@ -2,7 +2,7 @@
  * volkswagen.js
  *  ---
  * secret for now
- * @version: v1.0.0-rc1
+ * @version: v1.0.0-rc2
  * @author: shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)
  * @link: https://github.com/shprink/volkswagen.js#readme
  * @license: MIT
@@ -182,7 +182,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	        _classCallCheck(this, Volkswagen);
 	
-	        console.log('el', el);
 	        var self = this;
 	        this.element = el;
 	        this.parts = [];
@@ -289,8 +288,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        key: 'getSize',
 	        value: function getSize() {
 	            return {
-	                top: this.element.getBoundingClientRect().top,
-	                left: this.element.getBoundingClientRect().left,
+	                top: this.element.getBoundingClientRect().top + window.scrollY,
+	                left: this.element.getBoundingClientRect().left + window.scrollX,
 	                height: this.element.offsetHeight,
 	                width: this.element.offsetWidth
 	            };
