@@ -12,6 +12,8 @@ Putting this here just in case it interest someone. This lib is by no mean compl
 ## Usage
 
 ```
+var Volkswagen = require('../dist/volkswagen.js');
+
 var instance = new Volkswagen(document.querySelector("#two"), {
     direction: 'left',  // (left|right|top)
     trigger: 'click',   // optional
