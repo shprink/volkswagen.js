@@ -5,6 +5,10 @@ Putting this here just in case it interest someone. This lib is by no mean compl
 * For fun
 * https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal
 
+## Installation
+
+`npm install volkswagen.js`
+
 ## Usage
 
 ```

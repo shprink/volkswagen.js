@@ -2,7 +2,7 @@
  * volkswagen.js
  *  ---
  * secret for now
- * @version: v1.0.0
+ * @version: v1.0.0-rc1
  * @author: shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)
  * @link: https://github.com/shprink/volkswagen.js#readme
  * @license: MIT
